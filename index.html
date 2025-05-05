@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ficha Aventuras Fantasticas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ficha Aventuras Fantasticas</h1>
+  </header>
+
+  <main>
+  
+  <section>
+      <h3>Nome jogador</h3>
+      <label for="nome">Coloca teu nome aqui:</label> <input type="text" id="nome" required />
+    </section>
+	
+  <section>
+      <h3>Habilidade</h3>
+	  <p>A HABILIDADE de um aventureiro é determinada јogando-se um dado e somando 6 ao resultado obtido.</p>
+      <p>Os pontos de HABILIDADE indicam a habilidade de
+         um aventureiro em diversas áreas: esgrima e habilidadęs
+         gerais de luta; solução de problemas; força; inteligência;
+         etc. Quanto maior a HABILIDADE, melhor.</p>
+      <button type="button" id="rollD6_1">D6</button> <span id="d6Result1">___</span> <span>+6 =</span> <span id="totalResult1">___</span>
+	  
+	  
+    </section>
+    <section>
+      <h3>Energia</h3>
+	  <p>A ENERGIA de um aventureiro é determinada jogandose dois dados e somando 12 ao resultado obtido.</p>
+      <p>ENERGIA é uma medida da força do personagem;
+         quanto maior, melhor. Ela representa musculatura, vontade de sobreviver, determinação e constituição geral. Ferimentos e exaustão gradualmente reduzem a ENERGIA
+         de um aventureiro, apesar de ela poder ser recuperada
+         (por exemplo, ao comer Provisões). Um aventureiro morre se seus pontos de ENERGIA forem reduzidos a zèro.
+         Por isso, tenha cuidado.</p>
+      <button type="button" id="roll2D6">2D6</button> <span id="d6Result2D6">___</span> <span>+12 =</span> <span id="totalResult2D6">___</span>
+    </section>
+	<section>
+      <h3>Sorte</h3>
+	  <p>A SORTE de um aventureiro é determinada jogando-se
+         um dado e somando 6 ao resultado obtido.</p>
+      <p>A SORTE é um fato comum em Aventuras Fantásticas. Quanto maiores forem os pontos de SORTE mais
+         sortudo é esse personagem. Algumas vezes, durante a
+         aventura, pode ser pedido a um aventureiro para Testar a
+         Sorte, para determinar se uma dada situação pode ser convertida a favor ou contra ele.</p>
+      <p>O procedimento para Testar a Sorte é o seguinte: o
+         aventureiro deve lançar dois dados e comparar o total
+         obtido com os seus pontos de SORTE. Se o número obtido for igual ou menor que seus pontos de SORTE, o
+         aventureiro foi sortudo e o resultado é a seu favor. Mas,
+         şe o número obtido for maior que seus pontos de SORTE, então o aventureiro foi azarado e o reşultado é contrа
+         ele.</p>
+      <p>A cada vez que a SORTE for usada desse modo, o
+         aventureiro deve reduzir um ponto do seu total de SORTE (na Folha de Aventuras), não importando se o aventureiro foi sortudo ou azarado. Desse modo, você perceberá
+         que, quanto mais se usar a SORTE, mais arriscado se torna usá-la no futuro.</p>
+      <p>A SORTE pode ser reposta quando você encontra ou
+         usa certoş artefatos tais como Feitiços da Sorte, Poções, e
+         assim por diante.</p>
+      <p>A SORTE também pode ser usada em combates, dependendo da vontade do jogador, para aumentar ou diminuir os efeitos de ferimentos. Isso é explicado no próximo capítulo.</p>
+      <button type="button" id="rollD6_2">D6</button> <span id="d6Result2">___</span> <span>+6 =</span> <span id="totalResult2">___</span>
+    </section>
+	
+	<section><button type="button" id="salvarBtn">Salvar Ficha</button></section>
+  </main>
+
+
+  <footer>
+    <p>&copy; Ficha Aventuras Fantasticas. Todos os direitos reservados.</p>
+  </footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
